@@ -1,0 +1,43 @@
+.mainPage_container{
+    background-image: url('../../assets/images/bgImg.jpg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mainPageDiv{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 400px;
+}
+#wheel{
+    cursor: pointer;
+}
+.spinButton_container{
+    cursor: pointer;
+    position: absolute;
+    bottom: 130px;
+}
+.spinButton{
+    position: absolute;
+    right: 120px;
+    top: -10px;
+    width: 150px;
+    height: 48px;
+    background-color: #146531;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
