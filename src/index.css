@@ -1,0 +1,13 @@
+/* body {
+ background-image: url('./images/Picsart_22-11-24_12-19-43-709.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 300%;
+} */
+*{
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
